@@ -1,0 +1,109 @@
+html {
+  height: 100%;
+}
+body {
+  background-image: url(../images/fon.jpg);
+  background-attachment: fixed;
+}
+
+header,
+footer {
+    background: rgb(185, 255, 150);
+}
+footer {
+   padding-top: 17px;
+   text-align: center;
+}
+footer {
+  flex: 0 0 auto;
+}
+.grid {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr;
+grid-gap: 10px;
+}
+.grid > * {
+background-color: darkgray;
+color: white;
+padding: 40px;
+border-radius: 10px;
+}
+.image-logo {
+  height: auto;
+  width: 60%;
+}
+.head-nav {
+  display: inline-block;
+}
+.bottom {
+  border: 3px solid darkgreen; border-radius: 5px;
+  width: max-content;
+  background-color: white;
+}
+.name {
+  align: center;
+  font-family: fantasy;
+  font-size: 150%;
+  color: rgb(0, 130, 84);
+  background-color: rgb(185, 255, 150);
+}
+.one-fl {
+  width: 300px;
+  height:auto;
+}
+
+.item {
+    position: relative;
+}
+
+.item div {
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+.item a {
+    position: absolute;
+    left: 10%;
+    bottom:10%;
+    right: 10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+.item:hover div {
+    display: block;
+}
+.shadow-block {
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.5);
+}
+.shadow-btn {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.text-brown-9 {
+    color: #3E2723;
+}
+.bg-brown-1 {
+    background: #EFEBE9;
+}
+
+.btn-up {
+  position: fixed;
+  right: 20px;
+  bottom: 25px;
+  padding: 15px;
+  font-size: 25px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+.bg-green {
+  background: lightgreen;
+}
+.text-black {
+  color: black;
+}
